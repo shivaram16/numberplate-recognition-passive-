@@ -22,7 +22,7 @@ class detect:
         cv2.waitKey(0)
         cv2.destroyAllWindows()
 
-        machine=r"C:\My_Things\apps\vs_code\virtual_environments\yolo_models\num_plate_v1.pt"
+        machine=r"........"         // please add patho of your yolo machine ex: "C:\My_Things\apps\vs_code\virtual_environments\yolo_models\num_plate_v1.pt"
         model= YOLO(machine)
         results=model(image, stream=True)
         # global cpimg,croppedimg,gray
